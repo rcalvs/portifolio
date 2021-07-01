@@ -24,4 +24,9 @@ Nesse projeto abordaremos 2 braços
 [] Darkest Dungeon Game
 [] RPG Book Game
 
+## Diário de Bordo
 
+
+### Dia 01
+A ideia inicial é uma grande tela onde os projetos vão ser renderizados pelas "cards", essas cards são links para as páginas proprias.
+> Iniciamos o processo da tela inicial, criamos um Data.json onde colocarei os dados hard coded para serem renderizados, simulando uma API
