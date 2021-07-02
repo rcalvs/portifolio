@@ -3,7 +3,7 @@ import CardRender from "../components/projectCard";
 
 function Home(){
   return (
-    <div>
+    <div className="App">
       <Header />
       <h1>Hello World, something</h1>
       <CardRender />

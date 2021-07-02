@@ -1,11 +1,19 @@
 import data from '../data/data.json'
 import '../App.css';
+import { useHistory } from "react-router-dom";
 
 // const teste1 = Object.keys(data); // Retorna as Chaves
 // const teste2 = Object.values(data); // Retorna os Valores em Array
 // const teste3 = Object.entries(data); // Retorna Array com Chave + Valor em Array
 
 function CardRender(){
+  let history = useHistory();
+
+  const handleClick = (event) => {
+    console.log(event.target.name);
+    history.push(`/${event.target.name}`);
+  };
+
   return (
     <div>
       <h3>Um Card de Renderização Prévia de Projeto</h3>
@@ -15,13 +23,11 @@ function CardRender(){
           <h3>{element.name}</h3>
           <p>{element.status}</p>
           <p>{element.data}</p>
-          <button>Conheça o Projeto</button>
+          <button name={element.code} onClick={handleClick}>Conheça o Projeto</button>
 
         </div>
       ))
-      
       }
-      {console.log(Object.values(data))}
 
     </div>
 
