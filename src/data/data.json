@@ -1,20 +1,66 @@
 {
   "ToDoList": {
     "name": "ToDoList Project",
-    "data": "março-2015",
+    "data": "março-2020",
     "status": "Aguardando Rework",
-    "organização": "Trybe"
+    "organização": "Trybe",
+    "descrição": "Loren Ipsum juridico, no futuro terá uma explicação melhor, porém agora, no atual estado da aplicação, a utilização de tal loren factum ipsum serve para seus devidos fins conforme estipulado nas métricas e definições do caput",
+    "processo": "Fundamentos"
   },
   "Wallet": {
-    "name": "Wallec Project",
-    "data": "maio-2019",
+    "name": "Wallet Project",
+    "data": "maio-2020",
     "status": "Aguardando Rework",
-    "organização": "Trybe"
+    "organização": "Trybe",
+    "descrição": "Loren Ipsum juridico, no futuro terá uma explicação melhor, porém agora, no atual estado da aplicação, a utilização de tal loren factum ipsum serve para seus devidos fins conforme estipulado nas métricas e definições do caput",
+    "processo": "Front"
   },
   "Pixel": {
     "name": " Pyxel Project",
-    "data": "maio-2019",
+    "data": "maio-2020",
     "status": "Aguardando Rework",
-    "organização": "Trybe"
+    "organização": "Trybe",
+    "descrição": "Loren Ipsum juridico, no futuro terá uma explicação melhor, porém agora, no atual estado da aplicação, a utilização de tal loren factum ipsum serve para seus devidos fins conforme estipulado nas métricas e definições do caput",
+    "processo": "Fundamentos"
+  },
+  "Cronômetro": {
+    "name": " Cronômetro Project",
+    "data": "maio-2020",
+    "status": "Aguardando Rework",
+    "organização": "Trybe",
+    "descrição": "Loren Ipsum juridico, no futuro terá uma explicação melhor, porém agora, no atual estado da aplicação, a utilização de tal loren factum ipsum serve para seus devidos fins conforme estipulado nas métricas e definições do caput",
+    "processo": "Front"
+  },
+  "eShop": {
+    "name": " eShop Project",
+    "data": "maio-2020",
+    "status": "Aguardando Rework",
+    "organização": "Trybe",
+    "descrição": "Loren Ipsum juridico, no futuro terá uma explicação melhor, porém agora, no atual estado da aplicação, a utilização de tal loren factum ipsum serve para seus devidos fins conforme estipulado nas métricas e definições do caput",
+    "processo": "API"
+  },
+  "Books API": {
+    "name": " Books Project",
+    "data": "maio-2020",
+    "status": "Aguardando Rework",
+    "organização": "Trybe",
+    "descrição": "Loren Ipsum juridico, no futuro terá uma explicação melhor, porém agora, no atual estado da aplicação, a utilização de tal loren factum ipsum serve para seus devidos fins conforme estipulado nas métricas e definições do caput",
+    "processo": "API"
+  },
+  "Pokédex API": {
+    "name": " Pokedex Project",
+    "data": "maio-2020",
+    "status": "Aguardando Rework",
+    "organização": "Trybe",
+    "descrição": "Loren Ipsum juridico, no futuro terá uma explicação melhor, porém agora, no atual estado da aplicação, a utilização de tal loren factum ipsum serve para seus devidos fins conforme estipulado nas métricas e definições do caput",
+    "processo": "API"
+  },
+  "Movies CRUD": {
+    "name": " CringeFlix Project",
+    "data": "maio-2020",
+    "status": "Aguardando Rework",
+    "organização": "Trybe",
+    "descrição": "Loren Ipsum juridico, no futuro terá uma explicação melhor, porém agora, no atual estado da aplicação, a utilização de tal loren factum ipsum serve para seus devidos fins conforme estipulado nas métricas e definições do caput",
+    "processo": "Front"
   }
 }
