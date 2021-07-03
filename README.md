@@ -36,4 +36,6 @@ Nesse projeto abordaremos 2 braços
 > Criamos também a 1º rota para o 1º projeto a ser renovado, o ToDo List, foi necessario criar um dado novo do Data.json que chamaremos de 'code', ele dará a rota para a aplicação.
 
 ### Dia 03
-> É sábado e estamos aqui
+> É sábado e estamos aqui.
+> A adaptação de old-JS para React foi tranquila, ainda tem uns pontos para melhorar já que está cheio de document.querySelector porém está técnicamente funcional.
+> Iremos ver uns videos marotos ae de ToDo em React para adaptar melhor e fazer algo digno de nota.
