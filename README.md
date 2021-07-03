@@ -28,5 +28,14 @@ Nesse projeto abordaremos 2 braços
 
 
 ### Dia 01
-A ideia inicial é uma grande tela onde os projetos vão ser renderizados pelas "cards", essas cards são links para as páginas proprias.
-> Iniciamos o processo da tela inicial, criamos um Data.json onde colocarei os dados hard coded para serem renderizados, simulando uma API
+> A ideia inicial é uma grande tela onde os projetos vão ser renderizados pelas "cards", essas cards são links para as páginas proprias.
+> Iniciamos o processo da tela inicial, criamos um Data.json onde colocarei os dados hard coded para serem renderizados, simulando uma API.
+
+### Dia 02
+> Renderizamos os projetos da Trybe em formato de card, aplicamos um CSS basico para cards, bem sério, até parece empresa de advogados.
+> Criamos também a 1º rota para o 1º projeto a ser renovado, o ToDo List, foi necessario criar um dado novo do Data.json que chamaremos de 'code', ele dará a rota para a aplicação.
+
+### Dia 03
+> É sábado e estamos aqui.
+> A adaptação de old-JS para React foi tranquila, ainda tem uns pontos para melhorar já que está cheio de document.querySelector porém está técnicamente funcional.
+> Iremos ver uns videos marotos ae de ToDo em React para adaptar melhor e fazer algo digno de nota.
