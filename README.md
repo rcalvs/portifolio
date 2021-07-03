@@ -34,3 +34,6 @@ Nesse projeto abordaremos 2 braços
 ### Dia 02
 > Renderizamos os projetos da Trybe em formato de card, aplicamos um CSS basico para cards, bem sério, até parece empresa de advogados.
 > Criamos também a 1º rota para o 1º projeto a ser renovado, o ToDo List, foi necessario criar um dado novo do Data.json que chamaremos de 'code', ele dará a rota para a aplicação.
+
+### Dia 03
+> É sábado e estamos aqui
