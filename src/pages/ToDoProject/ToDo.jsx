@@ -21,8 +21,6 @@ function submitTask(event) {
   event.preventDefault();
   const newTodos = [task, ...todos];
   setTodos(newTodos);
-  console.log(todos);
-
 }
 
 
@@ -32,19 +30,21 @@ const completeTask = (key) => {
 }
 
 const deleteTask = (key) => {
-  console.log('Deleted');
-  console.log(todos);
   const remove = [...todos].filter(task => task.key !== key)
-  console.log(remove);
   setTodos(remove)
-  console.log(todos);
 
 }
 
 
-const editTask = (key, value) => {
-  setTodos(prev => prev.map(item => (item.key === key ? value : item)));
-}
+// const editTask = (key, value) => {
+//   const prevTodos = [todos];
+//   prevTodos.map((each) => {
+//     if (each.key === key) {
+//       each.text = value;
+//     }
+//   });
+//   // setTodos(prev => prev.map(item => (item.key === key ? value : item)));
+// }
 
   return (
     <div>
@@ -57,7 +57,7 @@ const editTask = (key, value) => {
         todos={todos}
         completeTask={completeTask}
         deleteTask={deleteTask}
-        editTask={editTask}
+        // editTask={editTask}
       />
     </div>
   );
