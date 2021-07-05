@@ -3,46 +3,54 @@ import './ToDo.css';
 import '../../App.css';
 import Task from './Task';
 
-function ToDo(){
+function ToDo() {
 
-const [task, setTask] = useState('')
-const [todos, setTodos] = useState([])
+const [task, setTask] = useState({});
+const [todos, setTodos] = useState([]);
 
 
 function addTask(event) {
-  setTask(event.target.value);
+  const currentTask = {
+    text: event.target.value,
+    key: Date.now()
+  }
+  setTask(currentTask);
 }
 
 function submitTask(event) {
   event.preventDefault();
   const newTodos = [task, ...todos];
   setTodos(newTodos);
-  // console.log(task);
-  // console.log(todos);
+  console.log(todos);
+
 }
 
 
 
-const completeTask = (index) => {
-  console.log(index);
+const completeTask = (key) => {
+  // Mudar CSS
 }
 
-const deleteTask = (index) => {
-  const remove = [...todos].filter(task => task.index !== index)
-
+const deleteTask = (key) => {
+  console.log('Deleted');
+  console.log(todos);
+  const remove = [...todos].filter(task => task.key !== key)
+  console.log(remove);
   setTodos(remove)
+  console.log(todos);
+
 }
 
-const editTask = () => {
-  console.log('Edited');
+
+const editTask = (key, value) => {
+  setTodos(prev => prev.map(item => (item.key === key ? value : item)));
 }
 
   return (
     <div>
       <h1>Minha Lista de Tarefas</h1>
-      <p>Clique duas vezes em um item para marcá-lo como completo</p>
       <form onSubmit={submitTask}>
-        <input type="text" onChange={addTask }/>
+        <input type="text" onChange={addTask}/>
         <button>Criar Tarefa</button>
       </form>
       <Task
