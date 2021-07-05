@@ -39,3 +39,10 @@ Nesse projeto abordaremos 2 braços
 > É sábado e estamos aqui.
 > A adaptação de old-JS para React foi tranquila, ainda tem uns pontos para melhorar já que está cheio de document.querySelector porém está técnicamente funcional.
 > Iremos ver uns videos marotos ae de ToDo em React para adaptar melhor e fazer algo digno de nota.
+
+### Dia 04
+> Tava funcionando mas eu resolvi atualizar o codigo do ToDo List para ser mais acertivo e bonitinho com o React, estou me baseando nesse código e já estou chorando https://github.com/briancodex/react-todo-app-v1.
+> No nomento estou quebrando a cabeça com o props.onSubmit, de onde veio? para onde vai? Como não quero copiar o codigo, estou pensando em usar a validação o value/name e não um id que eu não sei de onde vem.
+
+### Dia 05
+> Chega de quebrar a cabeça, vamos nos atentar o MVP, depois voltamos e quebramos a cabeça em mais funcionalidades

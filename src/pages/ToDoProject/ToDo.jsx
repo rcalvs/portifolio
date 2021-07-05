@@ -1,67 +1,64 @@
 import React, { useState } from 'react';
 import './ToDo.css';
 import '../../App.css';
+import Task from './Task';
 
-function ToDo(){
+function ToDo() {
 
-const [value, setValue] = useState('')
-const listaDeTarefas = document.querySelector('#lista-tarefas');
+const [task, setTask] = useState({});
+const [todos, setTodos] = useState([]);
 
-function inputValue(event) {
-  setValue(event.target.value)
-}
 
-function createLi() {
-  const criaLi = document.createElement('li');
-  criaLi.innerHTML = value;
-  listaDeTarefas.appendChild(criaLi);
-}
-
-function selectTask(element) {
-  const selecionado = document.querySelector('#selecionado');
-  if (selecionado !== null) {
-    document.querySelector('#selecionado').style.backgroundColor = 'white';
-    document.querySelector('#selecionado').id = 'completo';
-  } else {
-    element.target.id = 'selecionado';
-    document.querySelector('#selecionado').style.backgroundColor = 'rgb(128, 128, 128)';
+function addTask(event) {
+  const currentTask = {
+    text: event.target.value,
+    key: Date.now()
   }
-};
+  setTask(currentTask);
+}
 
-// function completaTarefa(element) {
-//     if (element.target.className === 'completed') {
-//       element.target.className = '';
-//     } else {
-//       element.target.className = 'completed';
+function submitTask(event) {
+  event.preventDefault();
+  const newTodos = [task, ...todos];
+  setTodos(newTodos);
+}
+
+
+
+const completeTask = (key) => {
+  // Mudar CSS
+}
+
+const deleteTask = (key) => {
+  const remove = [...todos].filter(task => task.key !== key)
+  setTodos(remove)
+
+}
+
+
+// const editTask = (key, value) => {
+//   const prevTodos = [todos];
+//   prevTodos.map((each) => {
+//     if (each.key === key) {
+//       each.text = value;
 //     }
+//   });
+//   // setTodos(prev => prev.map(item => (item.key === key ? value : item)));
+// }
 
-//     console.log(element.target);
-// };
-
-function apagaTudo() {
-    listaDeTarefas.innerHTML = '';
-}
-
-function apagaCompleto() {
-  const lista = document.querySelectorAll('#lista-tarefas li');
-  for (let index = 0; index < lista.length; index += 1) {
-    if (lista[index].className === 'completed') {
-      listaDeTarefas.removeChild(lista[index]);
-    }
-  }
-}
   return (
     <div>
       <h1>Minha Lista de Tarefas</h1>
-      <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
-      <div>
-        <input type="text" id="texto-tarefa" onChange={inputValue}/>
-        <button id="criar-tarefa" onClick={ createLi }>Criar Tarefa</button>
-        <ol id="lista-tarefas" onClick={ selectTask } >
-        </ol>
-        <button id="apaga-tudo" onClick={ apagaTudo }>Apaga Tudo</button>
-        <button id="remover-finalizados" onClick={ apagaCompleto }>Apaga Completos</button>
-      </div>
+      <form onSubmit={submitTask}>
+        <input type="text" onChange={addTask}/>
+        <button>Criar Tarefa</button>
+      </form>
+      <Task
+        todos={todos}
+        completeTask={completeTask}
+        deleteTask={deleteTask}
+        // editTask={editTask}
+      />
     </div>
   );
 } 
