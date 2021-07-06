@@ -2,7 +2,7 @@
   "ToDoList": {
     "name": "ToDoList Project",
     "data": "março-2020",
-    "status": "Aguardando Rework",
+    "status": "MVP",
     "organização": "Trybe",
     "descrição": "Loren Ipsum juridico, no futuro terá uma explicação melhor, porém agora, no atual estado da aplicação, a utilização de tal loren factum ipsum serve para seus devidos fins conforme estipulado nas métricas e definições do caput",
     "processo": "Fundamentos",
@@ -14,7 +14,8 @@
     "status": "Aguardando Rework",
     "organização": "Trybe",
     "descrição": "Loren Ipsum juridico, no futuro terá uma explicação melhor, porém agora, no atual estado da aplicação, a utilização de tal loren factum ipsum serve para seus devidos fins conforme estipulado nas métricas e definições do caput",
-    "processo": "Front"
+    "processo": "Front",
+    "code": "wallet"
   },
   "Pixel": {
     "name": " Pyxel Project",
@@ -22,7 +23,8 @@
     "status": "Aguardando Rework",
     "organização": "Trybe",
     "descrição": "Loren Ipsum juridico, no futuro terá uma explicação melhor, porém agora, no atual estado da aplicação, a utilização de tal loren factum ipsum serve para seus devidos fins conforme estipulado nas métricas e definições do caput",
-    "processo": "Fundamentos"
+    "processo": "Fundamentos",
+    "code": "pixel"
   },
   "Cronômetro": {
     "name": " Cronômetro Project",
@@ -30,7 +32,8 @@
     "status": "Aguardando Rework",
     "organização": "Trybe",
     "descrição": "Loren Ipsum juridico, no futuro terá uma explicação melhor, porém agora, no atual estado da aplicação, a utilização de tal loren factum ipsum serve para seus devidos fins conforme estipulado nas métricas e definições do caput",
-    "processo": "Front"
+    "processo": "Front",
+    "code": "cronometro"
   },
   "eShop": {
     "name": " eShop Project",
@@ -38,7 +41,8 @@
     "status": "Aguardando Rework",
     "organização": "Trybe",
     "descrição": "Loren Ipsum juridico, no futuro terá uma explicação melhor, porém agora, no atual estado da aplicação, a utilização de tal loren factum ipsum serve para seus devidos fins conforme estipulado nas métricas e definições do caput",
-    "processo": "API"
+    "processo": "API",
+    "code": "eshop"
   },
   "Books API": {
     "name": " Books Project",
@@ -46,7 +50,8 @@
     "status": "Aguardando Rework",
     "organização": "Trybe",
     "descrição": "Loren Ipsum juridico, no futuro terá uma explicação melhor, porém agora, no atual estado da aplicação, a utilização de tal loren factum ipsum serve para seus devidos fins conforme estipulado nas métricas e definições do caput",
-    "processo": "API"
+    "processo": "API",
+    "code": "books"
   },
   "Pokédex API": {
     "name": " Pokedex Project",
@@ -54,7 +59,8 @@
     "status": "Aguardando Rework",
     "organização": "Trybe",
     "descrição": "Loren Ipsum juridico, no futuro terá uma explicação melhor, porém agora, no atual estado da aplicação, a utilização de tal loren factum ipsum serve para seus devidos fins conforme estipulado nas métricas e definições do caput",
-    "processo": "API"
+    "processo": "API",
+    "code": "pokedex"
   },
   "Movies CRUD": {
     "name": " CringeFlix Project",
@@ -62,6 +68,7 @@
     "status": "Aguardando Rework",
     "organização": "Trybe",
     "descrição": "Loren Ipsum juridico, no futuro terá uma explicação melhor, porém agora, no atual estado da aplicação, a utilização de tal loren factum ipsum serve para seus devidos fins conforme estipulado nas métricas e definições do caput",
-    "processo": "Front"
+    "processo": "Front",
+    "code": "movies"
   }
 }

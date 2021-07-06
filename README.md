@@ -46,3 +46,6 @@ Nesse projeto abordaremos 2 braços
 
 ### Dia 05
 > Chega de quebrar a cabeça, vamos nos atentar o MVP, depois voltamos e quebramos a cabeça em mais funcionalidades
+
+### Dia 06
+> Mais um dia dificil, PixelArt dando pau, resolvi apenas por o Ctrl+C/Ctrl+V, para nao deixar o dia para "só isso?", fiz Ctrl+C/Ctrl+V no Movie Cards Library. Provavel que os proximos dias seja mais um dia de copia e cola mas esperamos voltar e reestruturar tudo.
