@@ -46,3 +46,14 @@ Nesse projeto abordaremos 2 braços
 
 ### Dia 05
 > Chega de quebrar a cabeça, vamos nos atentar o MVP, depois voltamos e quebramos a cabeça em mais funcionalidades
+
+### Dia 06
+> Mais um dia dificil, PixelArt dando pau, resolvi apenas por o Ctrl+C/Ctrl+V, para nao deixar o dia para "só isso?", fiz Ctrl+C/Ctrl+V no Movie Cards Library. Provavel que os proximos dias seja mais um dia de copia e cola mas esperamos voltar e reestruturar tudo.
+
+### Dia 07
+> Trivia com erro estranho... e la vamos nós!
+
+### Dia 08
+> Já descobri o que era, vou nem falar pq é meme.
+> Deletei o eShop, vou reformular e fazer algo baseado numa API, estou buscando uma API de filmes tbm mas por enquanto tá dificil, talvez seja necessario hardcode.
+> Trivia terá interações com o usuario e perguntas exclusivas.

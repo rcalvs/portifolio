@@ -1,0 +1,49 @@
+{
+  "response_code":0,
+  "results":[
+    {
+      "category":"History",
+      "type":"multiple",
+      "difficulty":"medium",
+      "question":"Which of the following battles is often considered as marking the beginning of the fall of the Western Roman Empire?",
+      "correct_answer":"Battle of Adrianople",
+      "incorrect_answers":
+      ["Battle of Thessalonica","Battle of Pollentia","Battle of Constantinople"]
+    },
+    {
+      "category":"Entertainment: Video Games",
+      "type":"multiple",
+      "difficulty":"easy",
+      "question":"In PROTOTYPE 2. who is referred to as &quot;Tango Primary&quot;?",
+      "correct_answer":"James Heller",
+      "incorrect_answers":
+      ["Alex Mercer","Dana Mercer","Any Goliaths roaming around"]
+    },
+    {
+      "category":"Entertainment: Music",
+      "type":"multiple",
+      "difficulty":"easy",
+      "question":"In 2006, which band released their debut album &quot;A Fever You Can&#039;t Sweat Out&quot;?",
+      "correct_answer":"Panic! At the Disco",
+      "incorrect_answers":
+      ["Twenty One Pilots","My Chemical Romance","Fall Out Boy"]
+    },
+    {
+      "category":"Entertainment: Cartoon & Animations",
+      "type":"multiple",
+      "difficulty":"medium",
+      "question":"What is the name of the Alligator that The Simpsons &quot;killed&quot; in the episode &quot;Kill The Alligator and Run&quot;?",
+      "correct_answer":"Captain Jack",
+      "incorrect_answers":
+      ["Captain Jake","Captain Hector","Captain Flynn"]
+    },
+    {
+      "category":"General Knowledge",
+      "type":"multiple",
+      "difficulty":"easy",
+      "question":"When was the Playstation 3 released?",
+      "correct_answer":"November 11, 2006",
+      "incorrect_answers":["January 8, 2007","December 25, 2007","July 16, 2006"]
+    }
+  ]
+}
