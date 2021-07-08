@@ -70,5 +70,14 @@
     "descrição": "Loren Ipsum juridico, no futuro terá uma explicação melhor, porém agora, no atual estado da aplicação, a utilização de tal loren factum ipsum serve para seus devidos fins conforme estipulado nas métricas e definições do caput",
     "processo": "Front",
     "code": "movies"
+  },
+  "Trivia": {
+    "name": "Trivia Project",
+    "data": "março-2020",
+    "status": "Aguardando Rework",
+    "organização": "Trybe",
+    "descrição": "Loren Ipsum juridico, no futuro terá uma explicação melhor, porém agora, no atual estado da aplicação, a utilização de tal loren factum ipsum serve para seus devidos fins conforme estipulado nas métricas e definições do caput",
+    "processo": "Fundamentos",
+    "code": "trivia"
   }
 }

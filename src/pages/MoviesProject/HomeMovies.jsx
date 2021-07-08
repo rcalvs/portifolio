@@ -8,7 +8,7 @@ import NotFound from './pages/NotFound';
 
 function HomeMovies(){
   return (
-    <div className="App">
+    <div>
       <Header />
       <h1>Movie Library</h1>
       <BrowserRouter>
