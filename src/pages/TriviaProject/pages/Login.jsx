@@ -1,14 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
+import TriviaContext from '../context/TriviaContext';
 
 function Login() {
-  const [usuario, setUsuario] = useState('');
+  const { name, setName } = useContext(TriviaContext);
+
   const [disable, setDisable] = useState(true);
 
   const handleValidation = (e) => {
-    const { name, value } = e;
-    setUsuario({ [name]: value });
-    if (usuario !== '') {
+    setName(e.target.value);
+    if (name !== '') {
       setDisable(false);
     }
   }
@@ -20,7 +21,7 @@ function Login() {
             <input
               type="text"
               data-testid="input-player-name"
-              name="usuario"
+              name="name"
               id="name"
               onChange={ handleValidation }
             />

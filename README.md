@@ -57,3 +57,9 @@ Nesse projeto abordaremos 2 braços
 > Já descobri o que era, vou nem falar pq é meme.
 > Deletei o eShop, vou reformular e fazer algo baseado numa API, estou buscando uma API de filmes tbm mas por enquanto tá dificil, talvez seja necessario hardcode.
 > Trivia terá interações com o usuario e perguntas exclusivas.
+
+### Dia 09
+> Free Day
+
+### Dia 10
+> Vamos fechar esse trivia
