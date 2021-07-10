@@ -1,16 +1,15 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import TriviaContext from '../context/TriviaContext';
 import '../../../App.css';
-import SingleQuestion from '../components/SingleQuestion'
+import QuestionBoard from '../components/QuestionBoard';
 
 function Game() {
-  const { name, score, questions } = useContext(TriviaContext)
-  const [index, setIndex] = useState(0)
+  const { name, score } = useContext(TriviaContext)
   return (
     <div>
       <h3> {name}</h3>
       <h3> {score}</h3>
-      <SingleQuestion index={index} questions={questions} setIndex={setIndex}/>
+      <QuestionBoard />
     </div>
   );
 } 

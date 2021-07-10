@@ -9,8 +9,8 @@ function TriviaProvider({ children }) {
   const [questions, setQuestions] = useState([])
 
   useEffect(() => {
-    const InitialName = 'Rogério';
-    const InitialScore = 131;
+    const InitialName = '';
+    const InitialScore = 0;
     setName(InitialName);
     setScore(InitialScore);
     const initialIndex = 1;
