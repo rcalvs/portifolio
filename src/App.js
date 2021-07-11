@@ -5,6 +5,7 @@ import HomeToDo from './pages/ToDoProject/HomeToDo';
 import HomePixel from './pages/PixelProject/HomePixel';
 import HomeMovies from './pages/MoviesProject/HomeMovies';
 import HomeTrivia from './pages/TriviaProject/HomeTrivia.jsx';
+import HomeCrono from './pages/CronoProject/HomeCrono';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Route exact path="/pixel" component={ HomePixel }/>
         <Route exact path="/movies" component={ HomeMovies }/>
         <Route exact path="/trivia" component={ HomeTrivia }/>
-
+        <Route exact path="/cronometro" component={ HomeCrono }/>
       </Switch>
     </BrowserRouter>
   );

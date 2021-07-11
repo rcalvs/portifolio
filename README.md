@@ -59,7 +59,10 @@ Nesse projeto abordaremos 2 braços
 > Trivia terá interações com o usuario e perguntas exclusivas.
 
 ### Dia 09
-> Free Day
+> Free Day.
 
 ### Dia 10
-> Vamos fechar esse trivia
+> Trivia em MVP.
+
+### Dia 11
+> Crono em MVP, faltaria por ele na versão regressiva.
