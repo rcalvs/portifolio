@@ -6,7 +6,7 @@ import { useHistory } from "react-router-dom";
 // const teste2 = Object.values(data); // Retorna os Valores em Array
 // const teste3 = Object.entries(data); // Retorna Array com Chave + Valor em Array
 
-function CardRender(){
+function Projetos(){
   let history = useHistory();
 
   const handleClick = (event) => {
@@ -15,7 +15,7 @@ function CardRender(){
   };
 
   return (
-    <div>
+    <div className="font-mono w-4/5">
       <h3>Um Card de Renderização Prévia de Projeto</h3>
     <div className="MasterCard">
       {Object.values(data).map((element) => (
@@ -37,4 +37,4 @@ function CardRender(){
   )
 } 
 
-export default CardRender;
+export default Projetos;
