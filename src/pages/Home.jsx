@@ -8,6 +8,7 @@ import Jorney from "../components/jorneys";
 import AboutMe from "../components/aboutme";
 import FrontPage from "../components/frontpage";
 import '../App.css';
+import Backlog from "../components/backlog";
 
 SwiperCore.use([Pagination]);
 
@@ -33,6 +34,9 @@ function Home(){
         <Projetos />
       </SwiperSlide>
    
+      <SwiperSlide>
+        <Backlog />
+      </SwiperSlide>
     </Swiper>
     </>
   );

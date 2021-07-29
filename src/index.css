@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap');
+
+@layer base {
+  h1 {
+    @apply font-semibold text-2xl text-blue-800
+  }
+  h3 {
+    @apply font-semibold;
+  }
+}

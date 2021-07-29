@@ -76,13 +76,13 @@ body {
     transform: rotate(360deg);
   }
 }
-.MasterCard {
+/* .MasterCard {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-}
-
+} */
+/* 
 .Card {
   border: 1px solid black;
   border-radius: 10px;
@@ -95,9 +95,9 @@ body {
 }
 .Card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
+} */
 
-.Card button {
+/* .Card button {
   border: none;
   outline: 0;
   padding: 12px;
@@ -107,7 +107,7 @@ body {
   cursor: pointer;
   width: 100%;
   font-size: 18px;
-}
+} */
 
 .card button:hover {
   opacity: 0.7;
