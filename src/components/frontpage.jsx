@@ -3,7 +3,7 @@ import '../index.css';
 
 function FrontPage(){
   return (
-    <div className="flex w-auto border font-mono">
+    <div className="flex w-auto border font-mono bg-white dark:bg-black">
       <div className="pr-12 flex justify-items-center">
         <div className="p-12 flex-col w-4/5 py-36 h-48 border ">
           <h1>Hi, I'm R.Calvs</h1>
