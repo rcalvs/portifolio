@@ -9,16 +9,16 @@ import AboutMe from "../components/aboutme";
 import FrontPage from "../components/frontpage";
 import '../App.css';
 import Backlog from "../components/backlog";
+import '../index.css';
 
 SwiperCore.use([Pagination]);
 
-
-function Home(){
+function Home() {
   return (
     <>
     <Header />
-    <Swiper direction={'vertical'} pagination={{"clickable": true }} className="mySwiper">
-      <SwiperSlide>
+    <Swiper direction={'vertical'} pagination={{"clickable": true }} className="mySwiper bg-white dark:bg-gray-600">
+      <SwiperSlide >
         <FrontPage />
       </SwiperSlide>
 

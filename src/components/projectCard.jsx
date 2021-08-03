@@ -15,13 +15,13 @@ function Projetos(){
   };
 
   return (
-    <div className="font-mono w-4/5">
-      <h1>Projetos Elaborados</h1>
+    <div className="font-mono w-4/5 ">
+      <h1 className="dark:text-blue-200">Projetos Elaborados</h1>
       <br />
 
     <div className="flex flex-wrap flex-row justify-center items-center">
       {Object.values(data).map((element) => (
-        <div className="relative border rounded-lg border-gray-600	shadow-md m-2 w-48 h-48 hover:shadow-xl">
+        <div className="relative border rounded-lg border-gray-600	shadow-md m-2 w-48 h-48 bg-gray-100 hover:shadow-xl dark:bg-gray-400">
           <h3 className="p-3">
             {element.name}
           </h3>

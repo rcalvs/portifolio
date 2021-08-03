@@ -1,21 +1,21 @@
-import blobl from '../images/blob.svg'
+import profilephoto from '../images/profilephoto.jpg'
 import '../index.css';
 
 function FrontPage(){
   return (
-    <div className="flex w-auto border font-mono bg-white dark:bg-black">
+    <div className="flex w-auto font-mono">
       <div className="pr-12 flex justify-items-center">
-        <div className="p-12 flex-col w-4/5 py-36 h-48 border ">
-          <h1>Hi, I'm R.Calvs</h1>
+        <div className="flex-col w-2/3 py-24 h-32 dark:text-white">
+          <h1 className="dark:text-blue-200">Hi, I'm R.Calvs</h1>
           <p>Its Dangerous outside </p>
           <p>please, take a Dev</p>
         </div>
-        <div className="">
-          <img className="p-12" src={blobl} alt="Blob" />
+        <div className="w-80 h-72 m-auto filter drop-shadow-2xl">
+          <img className="rounded-full mx-auto shadow-lg" src={profilephoto} alt="ProfilePhoto" />
         </div>
       </div>
     </div>
-  );
+  ); 
 } 
 
 export default FrontPage;

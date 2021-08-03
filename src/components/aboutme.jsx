@@ -3,8 +3,8 @@ import linkedinLogo from '../images/linkedin.svg'
 
 function AboutMe(){
   return (
-    <div className="flex-col font-mono w-4/5 leading-loose">
-      <h1>About Me</h1>
+    <div className="flex-col font-mono w-4/5 leading-loose dark:text-white">
+      <h1 className="dark:text-blue-200">About Me</h1>
       <br />
       <div className="italic">
         <p>
@@ -22,7 +22,7 @@ function AboutMe(){
       <br />
 
 
-        <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
+        <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4 dark:bg-gray-300">
           <div className="flex-shrink-0 h-12 w-52">
             <img className="fill-current" src={linkedinLogo} alt="Linkedin"/>
           </div>

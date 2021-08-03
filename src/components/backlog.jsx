@@ -2,8 +2,8 @@ import '../index.css';
 
 function Backlog(){
   return (
-    <div className="flex-col font-mono w-4/5 leading-loose">
-      <h1>Backlog</h1>
+    <div className="flex-col font-mono w-4/5 leading-loose dark:text-white">
+      <h1 className="dark:text-blue-200">Backlog</h1>
       <br />
       <div className="italic">
         <p>
@@ -27,7 +27,6 @@ function Backlog(){
         <ul>"Alive" Templates</ul>
         <ul>n.EDEN Project List</ul>
         <ul>StartTech Project List</ul>
-
       </li>
       <br />
     </div>
