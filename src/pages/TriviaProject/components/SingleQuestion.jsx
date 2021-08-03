@@ -4,7 +4,7 @@ import '../../../App.css';
 
 function SingleQuestion(props) {
   const [chosedQuestion, setChosedQuestion] = useState(false);
-  const [disableBtn, setDisableBtn] = useState(false);
+  // const [disableBtn, setDisableBtn] = useState(false);
   // const [time, setTime] = useState('');
 
   const { score, setScore } = useContext(TriviaContext);
@@ -12,17 +12,17 @@ function SingleQuestion(props) {
 
  function answerClick(event) {
     if (event.target.value === props.questions.correct_answer) {
-      setDisableBtn(true);
+      // setDisableBtn(true);
       setChosedQuestion(true);
       sumScore();
     } else {
-      setDisableBtn(true);
+      // setDisableBtn(true);
       setChosedQuestion(true);
     }
   }
 
   function resetBtn() {
-    setDisableBtn(false);
+    // setDisableBtn(false);
     setChosedQuestion(false);
   }
 

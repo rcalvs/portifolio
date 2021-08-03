@@ -59,7 +59,25 @@ Nesse projeto abordaremos 2 braços
 > Trivia terá interações com o usuario e perguntas exclusivas.
 
 ### Dia 09
-> Free Day
+> Free Day.
 
 ### Dia 10
-> Vamos fechar esse trivia
+> Trivia em MVP.
+
+### Dia 11
+> Crono em MVP, faltaria por ele na versão regressiva.
+
+### Dia 12
+> Free Day.
+
+### Dia 13
+> Desing de página de Wallet.
+
+### Dia 14
+> Copy do Wallet. Criar Provider e Switchs
+
+### Dia 15-18
+> Foco nos projetos da Trybe e processo seletivo :c
+
+### Dia 19
+> Nova ideia para a pagina inicial... bora fazer algo interativo e comentar minha história
