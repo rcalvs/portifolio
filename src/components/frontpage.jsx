@@ -8,7 +8,7 @@ function FrontPage(){
         <div className="flex-col w-2/3 py-24 h-32 dark:text-white">
           <h1 className="dark:text-blue-200">Hi, I'm R.Calvs</h1>
           <p>Its Dangerous outside </p>
-          <p>please, take a Dev</p>
+          <p>please, take a Dev.</p>
         </div>
         <div className="w-80 h-72 m-auto filter drop-shadow-2xl">
           <img className="rounded-full mx-auto shadow-lg" src={profilephoto} alt="ProfilePhoto" />
