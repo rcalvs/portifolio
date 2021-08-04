@@ -81,3 +81,6 @@ Nesse projeto abordaremos 2 braços
 
 ### Dia 19
 > Nova ideia para a pagina inicial... bora fazer algo interativo e comentar minha história
+
+### Dia 25
+> Dios mio, que role daora, porém o GitHub Pages está causando aqui, criarei um novo projeto com a tag de /portifólio e publicar de forma bem legal :D
