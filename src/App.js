@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import Home from './pages/Home';
 import HomeToDo from './pages/ToDoProject/HomeToDo';
 import HomePixel from './pages/PixelProject/HomePixel';
@@ -10,7 +10,6 @@ import HomeWallet from './pages/WalletProject/HomeWallet';
 
 function App() {
   return (
-    <BrowserRouter>
       <Switch>
         <Route exact path="/30daysProject" component={ Home }/>
         <Route exact path="/" component={ Home }/>
@@ -21,7 +20,6 @@ function App() {
         <Route path="/cronometro" component={ HomeCrono }/>
         <Route path="/wallet" component={ HomeWallet }/>
       </Switch>
-    </BrowserRouter>
   );
 }
 
