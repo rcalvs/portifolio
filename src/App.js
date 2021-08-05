@@ -12,13 +12,14 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
+        <Route exact path="/30daysProject" component={ Home }/>
         <Route exact path="/" component={ Home }/>
-        <Route exact path="/todo" component={ HomeToDo }/>
-        <Route exact path="/pixel" component={ HomePixel }/>
-        <Route exact path="/movies" component={ HomeMovies }/>
-        <Route exact path="/trivia" component={ HomeTrivia }/>
-        <Route exact path="/cronometro" component={ HomeCrono }/>
-        <Route exact path="/wallet" component={ HomeWallet }/>
+        <Route path="/todo" component={ HomeToDo }/>
+        <Route path="/pixel" component={ HomePixel }/>
+        <Route path="/movies" component={ HomeMovies }/>
+        <Route path="/trivia" component={ HomeTrivia }/>
+        <Route path="/cronometro" component={ HomeCrono }/>
+        <Route path="/wallet" component={ HomeWallet }/>
       </Switch>
     </BrowserRouter>
   );
