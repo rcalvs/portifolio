@@ -11,9 +11,10 @@ import HomeWallet from './pages/WalletProject/HomeWallet';
 function App() {
   return (
       <Switch>
-        <Route exact path="/30daysProject" component={ Home }/>
+        <Route exact path="/portifolio" component={ Home }/>
+        <Route exact path="/Portifolio" component={ Home }/>
         <Route exact path="/" component={ Home }/>
-        <Route path="/todo" component={ HomeToDo }/>
+        <Route path="/portifolio/todo" component={ HomeToDo }/>
         <Route path="/pixel" component={ HomePixel }/>
         <Route path="/movies" component={ HomeMovies }/>
         <Route path="/trivia" component={ HomeTrivia }/>
