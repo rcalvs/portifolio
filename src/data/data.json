@@ -4,7 +4,7 @@
     "data": "março-2020",
     "status": "MVP",
     "organização": "Trybe",
-    "descrição": "Loren Ipsum juridico, no futuro terá uma explicação melhor, porém agora, no atual estado da aplicação, a utilização de tal loren factum ipsum serve para seus devidos fins conforme estipulado nas métricas e definições do caput",
+    "descrição": "A definição é simples. É uma lista de tarefas que você precisa concluir ou coisas que deseja fazer. Tradicionalmente, eles são escritos em um pedaço de papel ou post-it e atuam como um auxiliar de memória. Nesse caso, reescrevemos o código de HTML/CSS/JS para React",
     "processo": "Fundamentos",
     "code": "todo"
   },
@@ -13,7 +13,7 @@
     "data": "maio-2020",
     "status": "Aguardando Rework",
     "organização": "Trybe",
-    "descrição": "Loren Ipsum juridico, no futuro terá uma explicação melhor, porém agora, no atual estado da aplicação, a utilização de tal loren factum ipsum serve para seus devidos fins conforme estipulado nas métricas e definições do caput",
+    "descrição": "Inicialmente uma planilha de gastos e despesas, a reestruturação será com foco em mobile, uma interface 360x640, utilizando React",
     "processo": "Front",
     "code": "wallet"
   },
@@ -22,8 +22,7 @@
     "data": "maio-2020",
     "status": "MVP",
     "organização": "Trybe",
-    "descrição": "Loren Ipsum juridico, no futuro terá uma explicação melhor, porém agora, no atual estado da aplicação, a utilização de tal loren factum ipsum serve para seus devidos fins conforme estipulado nas métricas e definições do caput",
-    "processo": "Front",
+    "descrição": "Criado como um exercício extra proposto. A ideia é de um input de tempo e uma contagem regressiva se inicia, ótimo para pequenos intervalos",    "processo": "Front",
     "code": "cronometro"
   },
   "eShop": {

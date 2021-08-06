@@ -10,6 +10,7 @@ import FrontPage from "../components/frontpage";
 import '../App.css';
 import Backlog from "../components/backlog";
 import '../index.css';
+// import Skills from "../components/skills";
 
 SwiperCore.use([Pagination]);
 
@@ -25,6 +26,10 @@ function Home() {
       <SwiperSlide>
         <AboutMe />
       </SwiperSlide>
+{/* 
+      <SwiperSlide>
+        <Skills />
+      </SwiperSlide> */}
 
       <SwiperSlide>
         <Jorney />

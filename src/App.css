@@ -8,7 +8,7 @@ body {
 
 .swiper-container {
   width: 100%;
-  height: 97%;
+  height: 95%;
 }
 
 .swiper-slide {
@@ -75,38 +75,6 @@ body {
     transform: rotate(360deg);
   }
 }
-/* .MasterCard {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: center;
-} */
-/* 
-.Card {
-  border: 1px solid black;
-  border-radius: 10px;
-  width: 200px;
-  height: 200px;
-  margin: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-
-}
-.Card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-} */
-
-/* .Card button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: grey;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-} */
 
 .card button:hover {
   opacity: 0.7;

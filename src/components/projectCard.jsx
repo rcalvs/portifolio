@@ -11,7 +11,7 @@ function Projetos(){
 
   const handleClick = (event) => {
     console.log(event.target.name);
-    history.push(`/${event.target.name}`);
+    history.push(`/portifolio/${event.target.name}`);
   };
 
   return (
