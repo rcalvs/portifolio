@@ -91,19 +91,15 @@ function Skills(){
     ],
   })
 
-
-
-
   return (
-    <div className="w-full max-w-md font-mono">
+    <div className="w-full max-w-md font-mono mx-8">
         <h1 className="dark:text-blue-200">Hard Skills</h1>
         <br />
         <p className="dark:text-white">
-          Aprender é uma tarefa continua que se alinha a prática
+          Aprender é uma tarefa continua que se alinha à prática
         </p>
 
-
-        <div className="w-full max-w-md px-2 py-16 sm:px-0">
+        <div className="w-full max-w-md mx-2 py-8 md:py-16 sm:px-0">
         <Tab.Group>
           <Tab.List className="flex p-1 space-x-1 bg-blue-900/20 rounded-xl">
             {Object.keys(categories).map((category) => (

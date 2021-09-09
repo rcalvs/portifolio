@@ -17,7 +17,7 @@ function Projetos(){
   };
 
   return (
-    <div className="font-mono w-4/5 ">
+    <div className="font-mono w-4/5 m-auto">
       <h1 className="dark:text-blue-200">Projetos Elaborados</h1>
       <br />
 

@@ -2,7 +2,7 @@ import '../index.css';
 
 function Backlog(){
   return (
-    <div className="flex-col font-mono w-4/5 leading-loose dark:text-white">
+    <div className="flex-col font-mono w-4/5 leading-loose dark:text-white m-auto">
       <h1 className="dark:text-blue-200">Backlog</h1>
       <br />
       <div className="italic">
