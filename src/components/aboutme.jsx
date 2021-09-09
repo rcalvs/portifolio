@@ -1,11 +1,10 @@
 import '../index.css';
 import linkedinLogo from '../images/linkedin.svg'
-import Skills from './skills';
+// import Skills from './skills';
 
 function AboutMe(){
   return (
-    <div className="flex">
-      <div className="flex-col font-mono w-1/2 mx-36 leading-loose dark:text-white">
+    <div className="flex-col font-mono w-1/2 mx-36 leading-loose dark:text-white">
         <h1 className="dark:text-blue-200">About Me</h1>
         <br />
         <div className="italic">
@@ -33,10 +32,9 @@ function AboutMe(){
             </div>
         </div>
 
-      </div>
-      <div className="flex-col font-mono w-1/2 leading-loose dark:text-white" >
+      {/* <div className="flex-col font-mono w-1/2 leading-loose dark:text-white" >
         <Skills />
-      </div>
+      </div> */}
     </div>
   
   );

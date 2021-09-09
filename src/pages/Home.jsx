@@ -4,13 +4,13 @@ import SwiperCore, { Pagination } from 'swiper/core';
 import "swiper/swiper.min.css";
 import "swiper/components/pagination/pagination.min.css"
 import Projetos from "../components/projectCard";
-import Jorney from "../components/jorneys";
+// import Jorney from "../components/jorneys";
 import AboutMe from "../components/aboutme";
 import FrontPage from "../components/frontpage";
 import '../App.css';
 import Backlog from "../components/backlog";
 import '../index.css';
-// import Skills from "../components/skills";
+import Skills from "../components/skills";
 
 SwiperCore.use([Pagination]);
 
@@ -26,14 +26,14 @@ function Home() {
       <SwiperSlide>
         <AboutMe />
       </SwiperSlide>
-{/* 
-      <SwiperSlide>
-        <Skills />
-      </SwiperSlide> */}
 
       <SwiperSlide>
-        <Jorney />
+        <Skills />
       </SwiperSlide>
+
+      {/* <SwiperSlide>
+        <Jorney />
+      </SwiperSlide> */}
 
       <SwiperSlide>
         <Projetos />
