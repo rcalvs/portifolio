@@ -1,8 +1,12 @@
 import '../index.css';
+import { BadgeCheckIcon } from '@heroicons/react/outline'
+
 
 function Backlog(){
   return (
-    <div className="flex-col font-mono w-4/5 leading-loose dark:text-white">
+    <div className="flex-col text-xs font-mono w-full leading-loose m-4
+      md:w-4/5 md:text-lg md:m-auto
+      dark:text-white">
       <h1 className="dark:text-blue-200">Backlog</h1>
       <br />
       <div className="italic">
@@ -18,11 +22,16 @@ function Backlog(){
       </div>
 
       <br />
-      <h3>
+      <h3 className="font-bold">
         Futuras Mudanças estruturais:
       </h3>
       <li>
-        <ul>Dark Mode</ul>
+        <ul>
+          <div className="flex justify-center ml-4">
+            Dark Mode
+            <BadgeCheckIcon className="ml-1 w-6 h-6 text-green-600" />
+          </div>
+        </ul>
         <ul>Links dos projetos</ul>
         <ul>"Alive" Templates</ul>
         <ul>n.EDEN Project List</ul>
