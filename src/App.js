@@ -2,13 +2,10 @@ import './App.css';
 import { Route, Switch } from 'react-router-dom';
 import Home from './pages/Home';
 import ProjectInfo from './components/projectInfo';
-// import data from '../src/data/data.json';
+import data from '../src/data/data.json';
 import HomeToDo from './pages/ToDoProject/HomeToDo';
-// import HomePixel from './pages/PixelProject/HomePixel';
-// import HomeMovies from './pages/MoviesProject/HomeMovies';
-// import HomeTrivia from './pages/TriviaProject/HomeTrivia.jsx';
-// import HomeCrono from './pages/CronoProject/HomeCrono';
-// import HomeWallet from './pages/WalletProject/HomeWallet';
+import projectInfo from './components/projectInfo';
+
 
 
 // Object.values(data).map((element) => { return console.log(element) })
@@ -19,16 +16,12 @@ function App() {
       <Switch>
         <Route exact path="/" component={ Home }/>
         <Route path="/portifolio" component={ Home }/>
+        <Route path="/Portifolio" component={ Home }/>
         {/* <Route path="/Portifolio" component={ Home }/> */}
 
-        <Route exact path="/portifolio/todo" component={ HomeToDo }/>
-        <Route exact path="/todo" component={ HomeToDo }/>
-
-        <Route path="/portifolio/pixel" component={ ProjectInfo }/>
-        <Route path="/portifolio/movies" component={ ProjectInfo }/>
-        <Route path="/portifolio/trivia" component={ ProjectInfo }/>
-        <Route path="/portifolio/cronometro" component={ ProjectInfo }/>
-        <Route path="/portifolio/wallet" component={ ProjectInfo }/>
+        {Object.values(data).map((element) => (
+          <Route path={`/${element.code}`} render={(props) => <ProjectInfo element={element} />}/>
+        ))}
       </Switch>
   );
 }

@@ -13,14 +13,12 @@ function Projetos(){
     console.log(event.target.name);
     history.push(`/${event.target.name}`);
     // history.push(`/portifolio/${event.target.name}`);
-
   };
 
   return (
     <div className="font-mono w-full m-auto">
       <h1 className="dark:text-blue-200">Projetos Elaborados</h1>
       <br />
-
     <div className="flex flex-wrap flex-row justify-center items-center">
       {Object.values(data).map((element) => (
         <div className="text-xs relative border rounded-lg border-gray-300 shadow-md m-1 w-36 h-24 bg-gray-100 
