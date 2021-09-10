@@ -17,9 +17,9 @@ import HomeToDo from './pages/ToDoProject/HomeToDo';
 function App() {
   return (
       <Switch>
-        {/* <Route exact path="/" component={ Home }/>
-        <Route path="/portifolio" component={ Home }/> */}
-        <Route path="/Portifolio" component={ Home }/>
+        <Route exact path="/" component={ Home }/>
+        {/* <Route path="/portifolio" component={ Home }/> */}
+        {/* <Route path="/Portifolio" component={ Home }/> */}
 
         <Route exact path="/portifolio/todo" component={ HomeToDo }/>
         <Route exact path="/todo" component={ HomeToDo }/>
