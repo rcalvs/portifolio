@@ -7,12 +7,17 @@ function projectInfo(props) {
 
   const { element }= props;
   return (
-    <div>
+    <div className="bg-white h-full dark:bg-gray-600">
       <Header />
-      <div className="flex-col font-mono mx-8 text-sm pt-10 border
+      <br />
+      <div className="flex-col font-mono m-auto text-base pt-10 justify-center
         md:flex-col md:w-2/3 md:m-auto md:text-base
         dark:text-white leading-loose">
-        <h1>{element.name}</h1>
+        <h1 className="flex m-auto align-center
+        dark:text-white">
+          {element.name}
+        </h1>
+        
         <h1>{element.data}</h1>
 
         <p>{element.descrição}</p>

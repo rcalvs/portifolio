@@ -18,7 +18,12 @@ function Home() {
   return (
     <>
     <Header />
-    <Swiper direction={'vertical'} pagination={{"clickable": true }} className="mySwiper bg-white dark:bg-gray-600">
+    <Swiper
+      direction={'vertical'}
+      pagination={{"clickable": true }}
+      className="mySwiper bg-white dark:bg-gray-600"
+    >
+      
       <SwiperSlide >
         <FrontPage />
       </SwiperSlide>
