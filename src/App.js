@@ -3,21 +3,14 @@ import { Route, Switch } from 'react-router-dom';
 import Home from './pages/Home';
 import ProjectInfo from './components/projectInfo';
 import data from '../src/data/data.json';
-import HomeToDo from './pages/ToDoProject/HomeToDo';
-import projectInfo from './components/projectInfo';
-
-
-
 // Object.values(data).map((element) => { return console.log(element) })
-
 
 function App() {
   return (
       <Switch>
-        <Route exact path="/" component={ Home }/>
-        <Route path="/portifolio" component={ Home }/>
-        <Route path="/Portifolio" component={ Home }/>
-        {/* <Route path="/Portifolio" component={ Home }/> */}
+        <Route exact path="/" basename="/" component={ Home }/>
+        {/* <Route path="/portifolio" component={ Home }/>
+        <Route path="/Portifolio" component={ Home }/> */}
 
         {Object.values(data).map((element) => (
           <Route path={`/${element.code}`} render={(props) => <ProjectInfo element={element} />}/>
