@@ -32,7 +32,8 @@ function Backlog(){
             <BadgeCheckIcon className="ml-1 w-6 h-6 text-green-600" />
           </div>
         </ul>
-        <ul>Links dos projetos</ul>
+        <ul>Pagina de projetos</ul>
+        <ul>Lazy Render</ul>
         <ul>"Alive" Templates</ul>
         <ul>n.EDEN Project List</ul>
         <ul>StartTech Project List</ul>

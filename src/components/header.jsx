@@ -1,11 +1,17 @@
 import '../index.css';
 import useDarkMode from '../data/useDarkMode';
+import { HomeIcon } from '@heroicons/react/outline'
+import {Link } from "react-router-dom"
 
 function Header(){
   const [colorTheme, setTheme] = useDarkMode();
 
   return (
-    <div className="flex bg-gradient-to-r from-blue-100 to-white dark:bg-gradient-to-r dark:from-blue-100 dark:to-gray-600 ">
+    <div className="flex bg-gradient-to-r from-blue-100 to-white dark:bg-gradient-to-r dark:from-blue-100 dark:to-gray-600">
+      <Link to="/">
+        <HomeIcon className="ml-4 w-6 h-6 font-bold hover:opacity-60"/>
+      </Link>
+      
       <div class="flex flex-1 items-center ml-6 w-full max-h-8">
         <label for="toogleA" class="flex items-center cursor-pointer">
         {/* <!-- toggle --> */}
@@ -23,11 +29,12 @@ function Header(){
         </div>
         </label>
       </div>
-      {/* <div className='flex'>
-        <h2 className='mx-8 text-blue-700 dark:text-blue-200'>Sobre Mim</h2>
+      <div className='flex'>
+        {/* <h2 className='mx-8 text-blue-700 dark:text-blue-200'>Sobre Mim</h2>
         <h2 className='mx-8 text-blue-700 dark:text-blue-200'>Jornadas</h2>
-        <h2 className='mx-8 text-blue-700 dark:text-blue-200'>Projetos</h2>
-      </div> */}
+        <h2 className='mx-8 text-blue-700 dark:text-blue-200'>Projetos</h2> */}
+        <p className="text-red-600 mx-8 mt-1 text-xs font-bold">Versão 1.0.5</p>
+      </div>
     </div>
   );
 } 

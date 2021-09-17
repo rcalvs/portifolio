@@ -1,3 +1,4 @@
+import React from 'react';
 import Header from "../components/header";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination } from 'swiper/core';
@@ -13,6 +14,9 @@ import '../index.css';
 import Skills from "../components/skills";
 
 SwiperCore.use([Pagination]);
+// const Skills = React.lazy(() => import("../components/skills"));
+
+
 
 function Home() {
   return (

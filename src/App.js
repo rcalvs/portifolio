@@ -9,8 +9,8 @@ function App() {
   return (
       <Switch>
         <Route exact path="/" basename="/" component={ Home }/>
-        {/* <Route path="/portifolio" component={ Home }/>
-        <Route path="/Portifolio" component={ Home }/> */}
+        <Route path="/portifolio" component={ Home }/>
+        <Route path="/Portifolio" component={ Home }/>
 
         {Object.values(data).map((element) => (
           <Route path={`/${element.code}`} render={(props) => <ProjectInfo element={element} />}/>
@@ -20,15 +20,3 @@ function App() {
 }
 
 export default App;
-
-  /* 
-  <Route path="/portifolio/todo" component={ HomeToDo }/>
-  <Route path="/portifolio/pixel" component={ HomePixel }/>
-  <Route path="/portifolio/movies" component={ HomeMovies }/>
-  <Route path="/portifolio/trivia" component={ HomeTrivia }/>
-  <Route path="/portifolio/cronometro" component={ HomeCrono }/>
-  <Route path="/portifolio/wallet" component={ HomeWallet }/>
-  
-          <Route path="portifolio/:id" render={(props) => <ProjectInfo {...props} />}/>
-
-  */

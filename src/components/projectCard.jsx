@@ -17,7 +17,10 @@ function Projetos(){
 
   return (
     <div className="font-mono w-full m-auto">
-      <h1 className="dark:text-blue-200">Projetos Elaborados</h1>
+      <div className="flex m-auto justify-center">
+        <h1 className="dark:text-blue-200">Projetos Elaborados</h1>
+        <p className="text-red-600 text-xs font-bold">Beta</p>
+      </div>
       <br />
     <div className="flex flex-wrap flex-row justify-center items-center">
       {Object.values(data).map((element) => (
