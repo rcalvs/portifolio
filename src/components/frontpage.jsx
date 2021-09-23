@@ -2,7 +2,6 @@ import profilephoto from '../images/profilephoto.jpg'
 import '../index.css';
 import { ChevronDownIcon } from '@heroicons/react/solid'
 
-
 function FrontPage(){
   return (
     <div>
@@ -22,7 +21,7 @@ function FrontPage(){
           </div>
         </div>
     </div>
-        <ChevronDownIcon className="w-5 h-5 mx-auto mt-20 text-blue-800" />
+        <ChevronDownIcon className="w-5 h-5 mx-auto mt-20 text-blue-800 dark:text-blue-200" />
     </div>
   ); 
 } 

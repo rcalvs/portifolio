@@ -22,36 +22,38 @@ function Home() {
   return (
     <>
     <Header />
-    <Swiper
-      direction={'vertical'}
-      pagination={{"clickable": true }}
-      className="mySwiper bg-white dark:bg-gray-600"
-    >
-      
-      <SwiperSlide >
-        <FrontPage />
-      </SwiperSlide>
+    <div className="bg-white dark:bg-gray-600 h-full">
 
-      <SwiperSlide>
-        <AboutMe />
-      </SwiperSlide>
+      <Swiper
+        direction={'vertical'}
+        pagination={{"clickable": true }}
+        className="mySwiper"
+      >
+        <SwiperSlide >
+          <FrontPage />
+        </SwiperSlide>
 
-      <SwiperSlide>
-        <Skills />
-      </SwiperSlide>
+        <SwiperSlide>
+          <AboutMe />
+        </SwiperSlide>
 
-      {/* <SwiperSlide>
-        <Jorney />
-      </SwiperSlide> */}
+        <SwiperSlide>
+          <Skills />
+        </SwiperSlide>
 
-      <SwiperSlide>
-        <Projetos />
-      </SwiperSlide>
-   
-      <SwiperSlide>
-        <Backlog />
-      </SwiperSlide>
-    </Swiper>
+        {/* <SwiperSlide>
+          <Jorney />
+        </SwiperSlide> */}
+
+        <SwiperSlide>
+          <Projetos />
+        </SwiperSlide>
+    
+        <SwiperSlide>
+          <Backlog />
+        </SwiperSlide>
+      </Swiper>
+    </div>
     </>
   );
 } 
