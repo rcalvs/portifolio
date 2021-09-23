@@ -2,10 +2,12 @@ import '../index.css';
 import useDarkMode from '../data/useDarkMode';
 import { HomeIcon } from '@heroicons/react/outline'
 import {Link } from "react-router-dom"
+import backlog from '../data/backlog.json'
 
 function Header(){
   const [colorTheme, setTheme] = useDarkMode();
-
+  const version = Object.keys(backlog).pop();
+  // console.log(Object.keys(backlog).pop())
   return (
     <div className="flex bg-gradient-to-r from-blue-100 to-white dark:bg-gradient-to-r dark:from-blue-100 dark:to-gray-600">
       <Link to="/">
@@ -33,7 +35,7 @@ function Header(){
         {/* <h2 className='mx-8 text-blue-700 dark:text-blue-200'>Sobre Mim</h2>
         <h2 className='mx-8 text-blue-700 dark:text-blue-200'>Jornadas</h2>
         <h2 className='mx-8 text-blue-700 dark:text-blue-200'>Projetos</h2> */}
-        <p className="text-red-600 mx-8 mt-1 text-xs font-bold">Versão 1.0.5</p>
+        <p className="text-red-600 mx-8 mt-1 text-xs font-bold">Versão {version}</p>
       </div>
     </div>
   );

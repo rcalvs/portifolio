@@ -1,16 +1,16 @@
 {
   "ToDoList": {
     "name": "ToDoList Project",
-    "data": "Março-2020",
+    "data": "março-2020",
     "status": "MVP",
     "organização": "Trybe",
-    "descrição": "A definição é simples. É uma lista de tarefas que você precisa concluir ou coisas que deseja fazer. Tradicionalmente, eles são escritos em um pedaço de papel ou post-it e atuam como um auxiliar de memória. Nesse caso, reescrevemos o código de HTML/CSS/JS para React",
+    "descrição": "O projeto inicial foi desenvolvido em HTML/CSS/JS e reestruturei ele para React, resolvi criar uma nova imagem, colocando os to-do como um post-it",
     "processo": "Fundamentos",
     "code": "todo",
-    "ferramentas": ["React"],
-    "github": "https://github.com/rcalvs/sd-010-a-project-todo-list",
-    "habilidades": ["lorem ipsum"],
-    "page": "#"
+    "ferramentas": ["React", "Tailwind"],
+    "github": "https://github.com/rcalvs/Sticky-Notes",
+    "habilidades": ["Manipulação de Objetos", "CSS", "State e React"],
+    "page": "https://rcalvs.github.io/Sticky-Notes/"
   },
   "Wallet": {
     "name": "Wallet Project",
@@ -114,7 +114,7 @@
     "descrição": "Projeto de conclusão do programa de bolsas Start Tech, oferecido pela Gama Academy em parceria com a Ambev. Desenvolvido usando React, Tailwind, MongoDBCloud, Node, Express",
     "processo": "FullStack",
     "code": "recruitpage",
-    "ferramentas": ["React", "Tailwind", "Express", "MongoDB"],
+    "ferramentas": ["React", "Tailwind", "NodeJS", "MongoDB"],
     "github": "https://github.com/rcalvs/recruitPage",
     "habilidades": [],
     "page": "https://rcalvs.github.io/recruitPage/#/"
