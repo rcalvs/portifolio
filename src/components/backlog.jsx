@@ -32,11 +32,16 @@ function Backlog(){
             <BadgeCheckIcon className="ml-1 w-6 h-6 text-green-600" />
           </div>
         </ul>
-        <ul>Pagina de projetos</ul>
-        <ul>Lazy Render</ul>
+        <ul>Navegação</ul>
+        <ul>EN-US</ul>
         <ul>"Alive" Templates</ul>
         <ul>n.EDEN Project List</ul>
-        <ul>StartTech Project List</ul>
+        <ul>
+          <div className="flex justify-center ml-4">
+            StartTech Project List
+            <BadgeCheckIcon className="ml-1 w-6 h-6 text-green-600" />
+          </div>
+        </ul>
       </li>
       <br />
     </div>
